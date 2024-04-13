@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media scrren and (min-device-width: 375px) {
+  .blog-card {
+    position: absolute;
+    display: block;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .blog-card {
+    position: relative;
+  }
+}
+
+.blog-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(47, 88%, 63%);
+  height: 776px;
+}
+
+.container {
+  display: inline-block;
+  font-family: "Figtree", sans-serif;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 10px 10px 2px black;
+  width: 350px;
+  padding: 27px;
+  background-color: white;
+}
+
+.learn {
+  background-color: hsl(47, 88%, 63%);
+  width: fit-content;
+  margin-top: 10px;
+  padding: 5px;
+  font-size: 15px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.publish {
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.main-heading {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.content {
+  color: rgb(174, 174, 174, 0.9);
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.image {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  gap: 10px;
+}
+
+img.rounded-corners {
+  border-radius: 10px;
+}
